@@ -18,7 +18,7 @@ def prepare(dataframe, columnnames):
     dataframe = dataframe.reset_index()
     patient = dataframe['Patient'].values.tolist()
     conta_occorrenze = dict(Counter(patient))
-    time, arg_max = calcola_range(6, conta_occorrenze, dataframe)
+    time, arg_max = calcola_range(9, conta_occorrenze, dataframe)
     dataframe = elimina_outliers(columnnames, time, dataframe)
     dataframe = trasla(dataframe, time, columnnames)
     dataframe = suddividi(dataframe, time, columnnames)
@@ -56,7 +56,7 @@ def testing(model, test, tag, causes, colonne):
     handle.close()
 
 
-df = pd.read_csv('training_completo.csv')
+df = pd.read_csv('training_full.csv')
 colonne = ['SigmaHR','MuHR','SigmaRR','MuRR','LF','HF']
 causes = ['Events','Patient']
 df = prepare(df, colonne)

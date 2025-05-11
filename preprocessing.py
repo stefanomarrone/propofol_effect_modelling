@@ -19,9 +19,6 @@ def single_execution(params, elems, outfile):
 
 if __name__ == '__main__':
     elements = ['time', 'events', 'sigmaHR', 'muHR', 'sigmaRR', 'muRR', 'LF', 'HF']
-    training = Parameters([1, 2, 3, 4, 5, 6], 0, 12000, 15)
-    testing = Parameters([7, 8, 9], 0, 12000, 15)
-    print('Start training')
-    single_execution(training, elements, 'training_completo.csv')
-    print('Start testing')
-    single_execution(testing, elements, 'testing.csv')
+    dataset = Parameters([1, 2, 3, 4, 5, 6, 7, 8, 9], 0, 12000, 15)
+    print('Start datatset preparation')
+    single_execution(dataset, elements, 'dataset.csv')
