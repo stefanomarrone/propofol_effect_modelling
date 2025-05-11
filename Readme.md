@@ -106,5 +106,5 @@ For questions, comments, or collaboration inquiries, please contact:
 
 - **Stefano Marrone**  
 - 📧 stefano.marrone@unicampania.it  
-- 🏢 [Università della Campania "Luigi Vanvitelli"]  
+- 🏢 [https://www.matfis.unina2.it/dipartimento/docenti?MATRICOLA=059162]  
 - 🌐 [https://orcid.org/0000-0003-1927-6173]
