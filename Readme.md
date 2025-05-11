@@ -87,8 +87,9 @@ As a result, the `results` folder contains all the confusion matrices for all th
 
 ## ▶️ Reprudicibility
 
-The code reported in this paper is enough to replicate the graphs reported in the paper. Further repository evolution  
-After execution, results will be saved to:
+The code reported in this paper is enough to replicate the graphs reported in the paper. Further repository 
+evolution will allow application configurability with allowing easy changeing of the parameters and allowing 
+experimentations. After execution, results will be saved to:
 
 - `results/` — Graphs, plots, and model visualizations  
 - `dataset.csv` — Who  
@@ -114,5 +115,5 @@ For questions, comments, or collaboration inquiries, please contact:
 
 - **Stefano Marrone**  
 - 📧 stefano.marrone@unicampania.it  
-- 🏢 [https://www.matfis.unina2.it/dipartimento/docenti?MATRICOLA=059162]  
-- 🌐 [https://orcid.org/0000-0003-1927-6173]
+- 🏢 [Istitutional Site](https://www.matfis.unina2.it/dipartimento/docenti?MATRICOLA=059162)  
+- 🌐 [ORCID](https://orcid.org/0000-0003-1927-6173)
