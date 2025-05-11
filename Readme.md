@@ -9,6 +9,7 @@
 - [Reproducibility](#reproducibility)  
 - [License](#license)  
 - [Contact](#contact)
+
 ---
 
 ## 🧠 Overview
@@ -25,6 +26,7 @@ This replication package includes:
 - Scripts for preprocessing the Propofol Anesthesia Dynamics dataset  
 - Implementation of Bayesian network modeling and inference  
 - Code to reproduce key figures from the paper
+
 ---
 
 ## ⚙️ Installation
@@ -35,6 +37,7 @@ git clone https://github.com/your-username/propofol-anesthesia-replication.git
 cd propofol-anesthesia-replication
 pip install -r requirements.txt
 ```
+
 ---
 
 ## 📁 Dataset
@@ -54,6 +57,7 @@ wget -r -N -c -np https://physionet.org/files/propofol-anesthesia-dynamics/1.0/
 mv physionet.org/files/propofol-anesthesia-dynamics/1.0/Data/ ./data
 rm -rf physionet.org/
 ```
+
 ---
 
 ## ▶️ Running the Code
@@ -70,15 +74,16 @@ python preprocessing.py
 As a result, the `dataset.csv` file is generated, containing the whole dataset.
 
 
-### ▶️ Model Genaration & Inference
+### ▶️ Model Generation & Inference
 
 ```bash
 mkdir results
 python model.py
 ```
-
 As a result, the `results` folder contains all the confusion matrices for all the considered hear rate variables.
+
 ---
+
 
 ## ▶️ Reprudicibility
 
@@ -89,6 +94,7 @@ After execution, results will be saved to:
 - `dataset.csv` — Who  
 
 These outputs reproduce the main findings reported in the paper.
+
 ---
 
 ## 📝 License
@@ -99,6 +105,7 @@ See the [LICENSE](./LICENSE-2.0.txt) file for more details.
 
 Note: The dataset is governed by PhysioNet’s credentialed access and must be used according to their terms:  
 📄 [PhysioNet License Info](https://physionet.org/about/licenses/)
+
 ---
 
 ## 📬 Contact
