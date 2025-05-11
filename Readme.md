@@ -1,4 +1,5 @@
-# Replication Package: *Towards a pre-surgery clinical decision support system*
+# Towards a pre-surgery clinical decision support system
+
 
 This repository contains the replication materials for the paper **"Towards a pre-surgery clinical decision support 
 system"**, which investigates the temporal and causal structure of clinical and physiological variables during  
