@@ -3,9 +3,9 @@
 ## 📦 Table of Contents
 
 - [Overview](#overview)  
-- [Installation](#installation)  
+- [Installation](#-installation)  
 - [Dataset](#dataset)  
-- [Running the Code](#running-the-code)  
+- [Running the Code](#-running-the-code)  
 - [Reproducibility](#reproducibility)  
 - [License](#license)  
 - [Contact](#contact)
@@ -35,6 +35,7 @@ git clone https://github.com/your-username/propofol-anesthesia-replication.git
 cd propofol-anesthesia-replication
 pip install -r requirements.txt
 ```
+---
 
 ## 📁 Dataset
 
@@ -53,6 +54,7 @@ wget -r -N -c -np https://physionet.org/files/propofol-anesthesia-dynamics/1.0/
 mv physionet.org/files/propofol-anesthesia-dynamics/1.0/Data/ ./data
 rm -rf physionet.org/
 ```
+---
 
 ## ▶️ Running the Code
 
@@ -75,6 +77,7 @@ python model.py
 ```
 
 As a result, the `results` folder contains all the confusion matrices for all the considered hear rate variables.
+---
 
 ## ▶️ Reprudicibility
 
@@ -85,3 +88,23 @@ After execution, results will be saved to:
 - `dataset.csv` — Who  
 
 These outputs reproduce the main findings reported in the paper.
+---
+
+## 📝 License
+
+This project is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+See the [LICENSE](./LICENSE-2.0.txt) file for more details.
+
+Note: The dataset is governed by PhysioNet’s credentialed access and must be used according to their terms:  
+📄 [PhysioNet License Info](https://physionet.org/about/licenses/)
+---
+
+## 📬 Contact
+
+For questions, comments, or collaboration inquiries, please contact:
+
+- **Stefano Marrone**  
+- 📧 stefano.marrone@unicampania.it  
+- 🏢 [Università della Campania "Luigi Vanvitelli"]  
+- 🌐 [https://orcid.org/0000-0003-1927-6173]
