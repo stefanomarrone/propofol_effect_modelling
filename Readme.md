@@ -33,8 +33,8 @@ This replication package includes:
 Clone this repository and install the required dependencies:
 
 ```bash
-git clone https://github.com/your-username/propofol-anesthesia-replication.git
-cd propofol-anesthesia-replication
+git clone https://github.com/stefanomarrone/propofol_effect_modelling.git
+cd propofol_effect_modelling
 pip install -r requirements.txt
 ```
 
