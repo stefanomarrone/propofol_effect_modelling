@@ -1,14 +1,15 @@
 # Towards a pre-surgery clinical decision support system
 
+
 ## 📦 Table of Contents
 
-- [Overview](#overview)  
-- [Installation](#-installation)  
-- [Dataset](#dataset)  
-- [Running the Code](#-running-the-code)  
-- [Reproducibility](#reproducibility)  
-- [License](#license)  
-- [Contact](#contact)
+- [Overview](#-overview)  
+- [Installation](#️-installation)  
+- [Dataset](#-dataset)  
+- [Running the Code](#️-running-the-code)  
+- [Reproducibility](#-reproducibility)  
+- [License](#-license)  
+- [Contact](#-contact)
 
 ---
 
@@ -85,7 +86,7 @@ As a result, the `results` folder contains all the confusion matrices for all th
 ---
 
 
-## ▶️ Reprudicibility
+## ▶️ Reproducibility
 
 The code reported in this paper is enough to replicate the graphs reported in the paper. Further repository 
 evolution will allow application configurability with allowing easy changeing of the parameters and allowing 
