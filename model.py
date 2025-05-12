@@ -56,7 +56,7 @@ def testing(model, test, tag, causes, colonne):
     handle.close()
 
 
-df = pd.read_csv('training_full.csv')
+df = pd.read_csv('dataset.csv')
 colonne = ['SigmaHR','MuHR','SigmaRR','MuRR','LF','HF']
 causes = ['Events','Patient']
 df = prepare(df, colonne)
