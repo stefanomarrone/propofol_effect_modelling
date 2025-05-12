@@ -93,7 +93,7 @@ evolution will allow application configurability with allowing easy changeing of
 experimentations. After execution, results will be saved to:
 
 - `results/` — Graphs, plots, and model visualizations  
-- `dataset.csv` — Who  
+- `dataset.csv` — Which contains the preprocessed data.
 
 These outputs reproduce the main findings reported in the paper.
 
@@ -118,3 +118,5 @@ For questions, comments, or collaboration inquiries, please contact:
 - 📧 stefano.marrone@unicampania.it  
 - 🏢 [Istitutional Site](https://www.matfis.unina2.it/dipartimento/docenti?MATRICOLA=059162)  
 - 🌐 [ORCID](https://orcid.org/0000-0003-1927-6173)
+
+Other contributors are [Roberta De Fazio](roberta.defazio@unicampania.it) and [Rossella Picone](rossella.picone@studenti.unicampania.it).
